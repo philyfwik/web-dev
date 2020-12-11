@@ -1,0 +1,39 @@
+ul, h1, li {
+	display: inline;
+}
+body, html {
+	width: 100%;
+}
+ul {
+	list-style: none;
+}
+form, nav {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+nav {
+	text-align: center;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: gold;
+}
+caption, form {
+	background-color: blue;
+	font-family: Forte;
+	color: white;
+}
+tfoot {
+	font-family: Forte;
+	font-size: 0.85em;
+}
+html {
+	background-color: silver;
+}
+form, h1 {
+	font-family: "Cooper Black";
+}

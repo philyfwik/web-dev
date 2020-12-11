@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment 3</title>
+		<link rel="stylesheet" href="lab3.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><h1>Meeting Page</h1></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Sales</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<table>
+			<caption>July 2019</caption>
+				<thead>
+					<tr>
+						<th>S</th><th>M</th>
+						<th>T</th><th>W</th>
+						<th>T</th><th>F</th><th>S</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td colspan="4"><a href="#">&lt&lt June</a></td>
+						<td colspan="3"><a href="#">August &gt&gt</a></td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td></td><td>1</td>
+						<td>2</td><td>3</td>
+						<td>4</td><td>5</td><td>6</td>
+					</tr>
+					<tr>
+						<td><a href="#">7</a></td><td>8</td>
+						<td>9</td><td>10</td>
+						<td>11</td><td>12</td><td>13</td>
+					</tr>
+					<tr>
+						<td><a href="#">14</a></td><td>15</td>
+						<td>16</td><td>17</td>
+						<td>18</td><td>19</td><td>20</td>
+					</tr>
+					<tr>
+						<td><a href="#">21</a></td><td>22</td>
+						<td>23</td><td>24</td>
+						<td>25</td><td>26</td><td>27</td>
+					</tr>
+					<tr>
+						<td><a href="#">28</a></td><td>29</td>
+						<td>30</td><td>31</td>
+						<td></td><td></td><td></td>
+					</tr>
+				</tbody>
+			</table>
+			<form>
+				<fieldset>
+					<legend>Meeting Details</legend>
+					<label for="cname">Client Name</label>
+					<input type="text" id="cname" placeholder="Enter name"/></br>
+					<label>First Meeting?</label>
+					<input type="checkbox" id="fmeet"/></br>
+					<label>Client Type</label></br>
+					<input type="radio" name="ctype" value="1"/>School
+					<input type="radio" name="ctype" value="2"/>College
+					<input type="radio" name="ctype" value="3"/>University</br>
+					<label for="mdate">Meeting Date: </label>
+					<input type="date" id="mdate"/></br>
+					<input type="submit"/> <input type="reset"/>
+				</fieldset>
+			</form>
+		</main>
+	</body>
+</html>
